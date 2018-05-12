@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE8234F320A72AED00EE5803 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8234F220A72AED00EE5803 /* main.m */; };
+		CE8234FB20A72B6700EE5803 /* libcups.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8234FA20A72B6700EE5803 /* libcups.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		CE8234EF20A72AEC00EE5803 /* cups-sample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cups-sample"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8234F220A72AED00EE5803 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8234FA20A72B6700EE5803 /* libcups.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcups.tbd; path = usr/lib/libcups.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8234FB20A72B6700EE5803 /* libcups.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				CE8234F120A72AEC00EE5803 /* cups-sample */,
 				CE8234F020A72AEC00EE5803 /* Products */,
+				CE8234F920A72B6600EE5803 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +64,14 @@
 				CE8234F220A72AED00EE5803 /* main.m */,
 			);
 			path = "cups-sample";
+			sourceTree = "<group>";
+		};
+		CE8234F920A72B6600EE5803 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8234FA20A72B6700EE5803 /* libcups.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
